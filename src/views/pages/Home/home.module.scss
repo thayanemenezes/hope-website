@@ -1,0 +1,77 @@
+.home {
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+.contentLeft{
+    margin: 0;
+    padding: 4rem 5rem 4rem 0rem;
+        h1 {
+            font-size: 50px;
+            font-weight: 900;
+            color: #0983AC;
+            margin: 0;
+        }
+        p{
+            color: #0983AC;
+        }
+        button{
+            margin-top:1rem;
+            border-radius: 1rem;
+            color: #fff;
+            border: none;
+            height: 2rem;
+            width: 7rem;
+        }
+        .buttonSchedule{
+            background-color:#8AB7D4;
+            transition: 400ms;
+            &:hover{
+                filter: opacity(0.7);
+            }
+        }
+        .buttonDonate{
+            margin-left: 10px;
+            background-color: #E9C92B;
+            transition: 400ms;
+            &:hover{
+                filter: opacity(0.7);
+            }
+        }
+        
+    }
+    .contentRight{
+        img {
+            width: 45rem;
+        }
+    }
+
+}
+.iconsHome{
+    margin-top: 8rem;
+    position: fixed;
+    span a img{
+        width: 1.6rem;
+        padding: 0rem 1rem 0rem 0rem;
+        transition: transform 500ms;
+        &:hover{
+            -webkit-transform: scale(0.78);
+            -ms-transform: scale(0.78);
+            transform: scale(0.78);
+        }
+    }
+}
+@media (max-width:720px){
+    .contentRight{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+    
